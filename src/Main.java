@@ -7,8 +7,8 @@ public class Main {
         int[][] B = generateRandomMatrix(n);
         int[][] C = multiplyMatrices(A, B);
 
-        // Perturb C to test error detection
-        C[0][0] += 1;
+        /* Perturb C to test error detection
+        C[0][0] += 1;*/
 
         /* Print matrices
         System.out.println("Matrix A:");
