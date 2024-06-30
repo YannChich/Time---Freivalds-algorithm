@@ -9,11 +9,6 @@ C. This algorithm leverages random vectors to perform the verification efficient
 
 The classical method for verifying if 𝐴×𝐵=𝐶
 A×B=C has a time complexity of 
-𝑂
-(
-𝑛
-3
-)
 O(n 
 3
  ), where 
@@ -21,14 +16,6 @@ O(n
 n is the size of the matrices.
 ### Freivalds' Algorithm: Freivalds' algorithm, 
 on the other hand, has a time complexity of 
-𝑂
-(
-𝑘
-𝑛
-2
-)
-
-
 O(kn 
 2
  ), where 
